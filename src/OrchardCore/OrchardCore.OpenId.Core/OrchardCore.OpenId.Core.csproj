@@ -3,6 +3,7 @@
   <PropertyGroup>
     <!-- NuGet properties-->
     <Title>OrchardCore OpenId Core</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCCMSDescription)
 
     Core implementation for OpenId.</Description>

@@ -3,6 +3,7 @@
   <PropertyGroup>
     <!-- NuGet properties-->
     <Title>OrchardCore Scripting JavaScript</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCFrameworkDescription)
 
     Provides javascript scripting capabilities.</Description>

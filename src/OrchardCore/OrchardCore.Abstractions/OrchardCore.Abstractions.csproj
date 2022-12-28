@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <!-- NuGet properties-->
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Title>OrchardCore Abstractions</Title>
     <Description>$(OCFrameworkDescription)
 

@@ -3,6 +3,7 @@
   <PropertyGroup>
     <!-- NuGet properties-->
     <Title>Target for Modular OrchardCore CMS Application</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCCMSDescription)
 
     Converts the application into a modular OrchardCore CMS application with TheAdmin theme but without any front-end Themes.</Description>
@@ -41,7 +42,7 @@
     <ProjectReference Include="..\..\OrchardCore.Modules\OrchardCore.Alias\OrchardCore.Alias.csproj" PrivateAssets="none" />
     <ProjectReference Include="..\..\OrchardCore.Modules\OrchardCore.Apis.GraphQL\OrchardCore.Apis.GraphQL.csproj" PrivateAssets="none" />
     <ProjectReference Include="..\..\OrchardCore.Modules\OrchardCore.ArchiveLater\OrchardCore.ArchiveLater.csproj" PrivateAssets="none" />
-    <ProjectReference Include="..\..\OrchardCore.Modules\OrchardCore.AuditTrail\OrchardCore.AuditTrail.csproj" PrivateAssets="none"/>
+    <ProjectReference Include="..\..\OrchardCore.Modules\OrchardCore.AuditTrail\OrchardCore.AuditTrail.csproj" PrivateAssets="none" />
     <ProjectReference Include="..\..\OrchardCore.Modules\OrchardCore.Autoroute\OrchardCore.Autoroute.csproj" PrivateAssets="none" />
     <ProjectReference Include="..\..\OrchardCore.Modules\OrchardCore.AutoSetup\OrchardCore.AutoSetup.csproj" PrivateAssets="none" />
     <ProjectReference Include="..\..\OrchardCore.Modules\OrchardCore.BackgroundTasks\OrchardCore.BackgroundTasks.csproj" PrivateAssets="none" />

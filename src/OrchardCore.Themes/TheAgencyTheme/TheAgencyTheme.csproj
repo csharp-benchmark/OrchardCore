@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
-
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <!-- NuGet properties-->
     <Title>The Agency theme</Title>
     <Description>$(OCCMSDescription)

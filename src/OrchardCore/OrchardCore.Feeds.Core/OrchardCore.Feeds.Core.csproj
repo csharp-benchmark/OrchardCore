@@ -3,6 +3,7 @@
   <PropertyGroup>
 
     <!-- NuGet properties-->
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Title>OrchardCore Feeds Core </Title>
     <Description>$(OCFrameworkDescription)
 

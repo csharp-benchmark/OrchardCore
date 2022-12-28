@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
-
+<TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <!-- NuGet properties-->
     <Title>OrchardCore Default theme</Title>
     <Description>$(OCCMSDescription)

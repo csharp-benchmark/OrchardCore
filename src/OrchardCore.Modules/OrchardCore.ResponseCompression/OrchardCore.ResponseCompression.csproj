@@ -3,6 +3,7 @@
   <PropertyGroup>
     <!-- NuGet properties-->
     <Title>OrchardCore Response Compression</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCFrameworkDescription)
 
     The Response Compression module provides the gzip compression.</Description>

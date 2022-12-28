@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <RootNamespace>OrchardCore.Roles</RootNamespace>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <!-- NuGet properties-->
     <Title>OrchardCore Roles Core</Title>
     <Description>$(OCCMSDescription)

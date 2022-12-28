@@ -3,6 +3,7 @@
   <PropertyGroup>
     <!-- NuGet properties-->
     <Title>OrchardCore Infrastructure</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCCMSDescription)
 
     Implementation for OrchardCoreCMS Infrastructure </Description>

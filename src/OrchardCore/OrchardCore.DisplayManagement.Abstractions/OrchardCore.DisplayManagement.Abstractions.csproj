@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <RootNamespace>OrchardCore.Mvc</RootNamespace>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
 
     <!-- NuGet properties-->
     <Title>OrchardCore DisplayManagement Abstractions</Title>

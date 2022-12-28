@@ -4,6 +4,7 @@
 
     <!-- NuGet properties-->
     <Title>OrchardCore GraphQL for ContentManagement</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCCMSDescription)
 
     GraphQL implementation for ContentManagement</Description>

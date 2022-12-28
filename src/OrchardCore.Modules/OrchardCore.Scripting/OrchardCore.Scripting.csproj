@@ -3,6 +3,7 @@
   <PropertyGroup>
     <!-- NuGet properties-->
     <Title>OrchardCore Scripting</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCFrameworkDescription)
 
     The Scripting module adds scripting capabilities.</Description>

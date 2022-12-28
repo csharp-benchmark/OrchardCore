@@ -4,6 +4,7 @@
     <RootNamespace>OrchardCore.Indexing</RootNamespace>
     <!-- NuGet properties-->
     <Title>OrchardCore Indexing Abstractions</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCCMSDescription)
 
     Abstractions for Indexing.</Description>

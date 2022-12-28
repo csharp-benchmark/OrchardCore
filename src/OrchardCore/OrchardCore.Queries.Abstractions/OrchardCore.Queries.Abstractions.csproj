@@ -1,8 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <RootNamespace>OrchardCore.Queries</RootNamespace>
     <!-- NuGet properties-->
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Title>OrchardCore Queries Abstractions</Title>
     <Description>$(OCCMSDescription)
 

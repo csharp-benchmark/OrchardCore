@@ -4,6 +4,7 @@
 
     <!-- NuGet properties-->
     <Title>OrchardCore FileStorage Amazon S3</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCFrameworkDescription)
 
       Implementation for Amazon S3 FileStorage.</Description>

@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <RootNamespace>OrchardCore.Rules</RootNamespace>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <!-- NuGet properties-->
     <Title>OrchardCore Rules Abstractions</Title>
     <Description>$(OCFrameworkDescription)

@@ -4,6 +4,7 @@
 
     <!-- NuGet properties-->
     <Title>OrchardCore DynamicCache Abstractions</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCFrameworkDescription)
 
     Abstractions for Dynamic Cache Module.</Description>

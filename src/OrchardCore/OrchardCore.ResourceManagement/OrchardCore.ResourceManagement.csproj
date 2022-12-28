@@ -3,6 +3,7 @@
   <PropertyGroup>
     <!-- NuGet properties-->
     <Title>OrchardCore ResourceManagement</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCFrameworkDescription)
 
       Provides Resource Management capabilities and useful TagHelpers for commonly used resources like JavaScript libraries and CSS files.</Description>

@@ -4,6 +4,7 @@
 
     <!-- NuGet properties-->
     <Title>OrchardCore DisplayManagement</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCFrameworkDescription)
 
     Library for DisplayManagement. Provides BaseDisplayManager, Shape, Layout and Theming support.</Description>

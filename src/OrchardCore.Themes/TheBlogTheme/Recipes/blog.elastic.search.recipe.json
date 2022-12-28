@@ -18,7 +18,6 @@
       ]
     },
     {
-      // Create the indices before the content items so they are indexed automatically.
       "name": "ElasticIndexSettings",
       "Indices": [
         {
@@ -52,7 +51,6 @@
       ]
     },
     {
-      // Create the search settings.
       "name": "Settings",
       "ElasticSettings": {
         "SearchIndex": "search",
@@ -70,7 +68,6 @@
       ]
     },
     {
-      // Create the search index permissions.
       "name": "Roles",
       "Roles": [
         {

@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <RootNamespace>OrchardCore.ContentLocalization</RootNamespace>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
 
     <!-- NuGet properties-->
     <Title>OrchardCore ContentLocalization Abstractions</Title>

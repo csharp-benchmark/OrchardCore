@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <RootNamespace>OrchardCore.Media</RootNamespace>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <!-- NuGet properties-->
     <Title>OrchardCore Media Abstractions</Title>
     <Description>$(OCCMSDescription)

@@ -3,6 +3,7 @@
   <PropertyGroup>
     <!-- NuGet properties-->
     <Title>Target for OrchardCore Module</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCFrameworkDescription)
 
     Converts project/library into an OrchardCore Module that can be referenced in OrchardCore modular application.</Description>

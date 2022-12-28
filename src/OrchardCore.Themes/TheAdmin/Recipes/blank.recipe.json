@@ -9,16 +9,13 @@
   "categories": [ "default" ],
   "tags": [ "blank" ],
 
-  // The variables are evaluated the first time they are accessed, and reused across steps
   "variables": {
-    // "now": "[js: new Date().toISOString()]"
   },
 
   "steps": [
     {
       "name": "feature",
       "enable": [
-        // SaaS
         "OrchardCore.HomeRoute",
         "OrchardCore.Admin",
         "OrchardCore.Diagnostics",
@@ -33,7 +30,6 @@
         "OrchardCore.Themes",
         "OrchardCore.Users",
 
-        // Content Management
         "OrchardCore.Alias",
         "OrchardCore.Autoroute",
         "OrchardCore.Html",
@@ -57,7 +53,6 @@
         "OrchardCore.Templates",
         "OrchardCore.Widgets",
 
-        // Themes
         "TheAdmin"
       ]
     },

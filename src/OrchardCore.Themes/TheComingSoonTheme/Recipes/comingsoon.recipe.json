@@ -8,7 +8,6 @@
   "issetuprecipe": true,
   "categories": [ "default" ],
   "tags": [ "comingsoon" ],
-  // The variables are evaluated the first time they are accessed, and reused across steps
   "variables": {
     "comingSoonContentItemId": "[js:uuid()]",
     "workflowTypeId": "[js:uuid()]",

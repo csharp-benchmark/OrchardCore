@@ -4,6 +4,7 @@
 
     <!-- NuGet properties-->
     <Title>OrchardCore Contents TagHelpers</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCCMSDescription)
 
     TagHelpers for Contents</Description>

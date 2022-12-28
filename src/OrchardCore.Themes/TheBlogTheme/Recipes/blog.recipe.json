@@ -9,7 +9,6 @@
   "categories": [ "default" ],
   "tags": [ "blog" ],
 
-  // The variables are evaluated the first time they are accessed, and reused across steps
   "variables": {
     "adminUrlPrefix": "[js: configuration('OrchardCore_Admin:AdminUrlPrefix', 'Admin')]",
     "blogContentItemId": "[js:uuid()]",
@@ -21,14 +20,12 @@
     "spaceTagContentItemId": "[js:uuid()]",
     "categoriesContentItemId": "[js:uuid()]",
     "categoryTravelContentItemId": "[js:uuid()]"
-    // "now": "[js: new Date().toISOString()]"
   },
 
   "steps": [
     {
       "name": "feature",
       "enable": [
-        // SaaS
         "OrchardCore.HomeRoute",
         "OrchardCore.Admin",
         "OrchardCore.Diagnostics",
@@ -43,7 +40,6 @@
         "OrchardCore.Themes",
         "OrchardCore.Users",
 
-        // Content Management
         "OrchardCore.Alias",
         "OrchardCore.AdminMenu",
         "OrchardCore.Autoroute",
@@ -73,7 +69,6 @@
         "OrchardCore.Templates",
         "OrchardCore.Widgets",
 
-        // Themes
         "TheBlogTheme",
         "TheAdmin",
         "SafeMode"

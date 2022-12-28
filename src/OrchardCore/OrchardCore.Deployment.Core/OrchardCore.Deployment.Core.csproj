@@ -4,6 +4,7 @@
 
     <!-- NuGet properties-->
     <Title>OrchardCore Deployment Core</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCCMSDescription)
 
     Core Implementation for Deployment module.</Description>

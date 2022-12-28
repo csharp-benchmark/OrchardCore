@@ -3,6 +3,7 @@
   <PropertyGroup>
      <!-- NuGet properties-->
     <Title>OrchardCore ContentManagement</Title>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <Description>$(OCCMSDescription)
 
     Implementation for ContentManagement</Description>

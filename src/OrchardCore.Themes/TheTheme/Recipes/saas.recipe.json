@@ -12,7 +12,6 @@
     {
       "name": "feature",
       "enable": [
-        // SaaS
         "OrchardCore.Admin",
         "OrchardCore.Diagnostics",
         "OrchardCore.DynamicCache",
@@ -29,7 +28,6 @@
         "OrchardCore.Themes",
         "OrchardCore.Users",
 
-        // Themes
         "TheTheme",
         "TheAdmin",
         "SafeMode"

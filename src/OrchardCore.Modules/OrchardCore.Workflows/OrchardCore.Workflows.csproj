@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TypeScriptToolsVersion>2.3</TypeScriptToolsVersion>
+    <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
     <!-- NuGet properties-->
     <Title>OrchardCore Workflows</Title>
